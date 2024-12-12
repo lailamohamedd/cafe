@@ -1,0 +1,150 @@
+.contact {
+    margin: 50px 0;
+    padding: 25px 0;
+}
+.contact h2 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+.contact p.text-title {
+    margin: 25px 0;
+}
+.contact form {
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+}
+.contact form .form-control {
+    border: none;
+}
+.contact form input,
+.contact form textarea,
+.contact form select {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+}
+.contact form textarea {
+    height: 120px;
+}
+.contact form .alert {
+    margin-bottom: 0 !important;
+}
+.contact form input:hover {
+    border: 1px solid var(--main-color);
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -ms-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+}
+.contact button {
+    width: 100%;
+    max-width: 100%;
+    height: 45px;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+.contact form button:hover {
+    background-color: #fff;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+.contact .side {
+    background-image: url("./../../assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-size: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-top: 10px;
+    
+}
+.side .overlay {
+    background-color: rgba(0, 0, 0, 0.475);
+    color: #fff;
+    padding: 25px 20px;
+    opacity: .8;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.contact .side .overlay h3 {
+    font-size: 27px;
+    margin: 25px 0;
+    font-weight: 700;
+}
+.contact .side .overlay li {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.contact .side .overlay li svg {
+    margin-right: 15px;
+}
+.contact .side .overlay hr {
+    color: #fff;
+    background-color: #fff;
+}
+.contact .overlay ul.social li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 12px;
+    font-size: 16px;
+    padding-left: 9px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px !important;
+}
+.contact .overlay ul.social li:hover {
+    margin-top: 5px !important;
+}
+.contact .overlay ul.social li svg {
+    color: var(--main-color);
+    text-align: center;
+    margin-right: 9px;
+}

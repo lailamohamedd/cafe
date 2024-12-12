@@ -1,0 +1,92 @@
+header{
+    background-image: url('./../../assets/banner.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 825px !important;
+    height: auto;
+    text-align: center;
+}
+header .header-overlay {
+    background-color: rgba(0, 0, 0, 0.475);
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    overflow: overlay;
+}
+header .header-overlay .row {
+    margin: 60px 0;
+}
+header h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 75px;
+    margin: 75px 0 35px 0;
+    letter-spacing: 1px;
+}
+header p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 35px 0;
+}
+header form.header-form {
+    margin: 35px auto 70px auto;
+    background-color: #fff;
+    width: 50%;
+    max-width: 100%;
+    border-radius: 30px;
+    padding: 7px;
+    display: flex;
+}
+header form input {
+    background-color: #fff;
+    border: 1px solid #fff;
+    outline: none !important;
+    width: 100%;
+    border-radius: 30px;
+    text-align: left;
+    color: #1f1f1f;
+    font-size: 16px;
+    padding: 7px;
+}
+header form button {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    width: 140px;
+    height: 45px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media(max-width: 992px){
+    header .header-overlay .row {
+        margin: 0px !important;
+    }
+    header h2 {
+        font-size: 22px !important;
+        line-height: 1px !important;
+        margin: auto !important;
+    }
+    header p {
+        line-height: 22px !important;
+        margin: 20px 5px !important;
+    }
+    header form.header-form {
+        margin: 12px auto !important;
+    }
+    header form button {
+        width: 114px !important;
+        height: auto !important;
+    }
+}

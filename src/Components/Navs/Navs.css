@@ -1,0 +1,97 @@
+nav {
+    background-color: transparent;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 5px 0 5px 30px;
+    overflow: hidden;
+    border-radius: 0;
+    position: fixed !important;
+    top: 0;
+    transition: background-color 0.5s ease;
+    z-index: 9;
+}
+
+nav.scrolled {
+    background-color: #fff !important;
+}
+nav.scrolled a{
+    color: #333 !important;
+}
+nav.scrolled a.navbar-brand{
+    color: var(--main-color) !important;
+}
+nav .navbar-brand {
+    color: var(--main-color) !important;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 0 50px;
+}
+
+nav a{
+    color: #fff !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 10px 10px 0 10px !important;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+nav a.first {
+    color: #fff !important;
+}
+nav a:hover {
+    color: var(--main-color) !important;
+    transition: .2s ease-in-out;
+}
+nav a.first {
+    background-color: var(--main-color);
+    padding: 5px;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+nav a.first:hover {
+    color: var(--main-color);
+    background-color: #fff;
+}
+nav button.btn-try {
+    background: var(--main-color);
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+nav button.btn-try:hover {
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    background-color: transparent;
+}
+@media(max-width: 992px) {
+    nav a {
+        padding: 12px 0;
+    }
+    nav .btn-try {
+        width: 70% !important;
+    }
+    .navbar-collapse {
+        background-color: #6d6b69c4;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    nav {
+        position: relative !important;
+    }
+}
